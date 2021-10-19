@@ -1,0 +1,20 @@
+h1,
+h2 {
+  font-family: Lato;
+}
+
+.box {
+  border: 2px solid black;
+  padding: 15px;
+  min-height: 200px;
+}
+
+@media screen and (min-width: 960px) {
+  .box {
+    max-width: 400px;
+  }
+}
+
+.note {
+  color: grey;
+}
